@@ -1,14 +1,15 @@
 #! /bin/bash
 #cars.sh
 #Isabella Sills
+n=0
 
-while True
+while [ "$n" -ne 3 ]
 do
   echo "Enter a number from the menu:
   Type 1 to enter a new car
   Type 2 to list the current directory of cars
-  Type 3 to quit the program";read NUM
-    case "$NUM" in
+  Type 3 to quit the program";read n
+    case "$n" in
       "1")
             echo "You chose to add a new car"
             echo "Enter the year of the car"
