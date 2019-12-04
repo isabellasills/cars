@@ -2,7 +2,7 @@
 #cars.sh
 #Isabella Sills
 
-while true
+while True
 do
   echo "Enter a number from the menu:
   Type 1 to enter a new car
